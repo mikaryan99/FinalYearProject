@@ -1,4 +1,4 @@
-%Decoder is uses the Viterbi algorith and Hamming distance to decoce
+%Decoder uses the Viterbi algorithm and Hamming distance to decode
 %convolutional code
 
 function [dec, pathS] = Decoder(rxAWGN, pathL)
