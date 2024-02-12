@@ -10,7 +10,7 @@ window = 10000;  % split this in half in the slider then output first half
 seed = 12345;
 rng(seed);
 
-bits = randi([0 1],message_length,1); %forgetting two 0's? from encoder mem
+bits = randi([0 1],message_length,1); 
 bits(1) = 0;
 
 
